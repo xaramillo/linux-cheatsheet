@@ -1,15 +1,21 @@
 ``` 
-      ____                               _                    _           
-     / ___|___  _ __ ___  _ __  _ __ ___| |__   ___ _ __  ___(_)_   _____ 
-    | |   / _ \| '_ ` _ \| '_ \| '__/ _ \ '_ \ / _ \ '_ \/ __| \ \ / / _ \
-    | |__| (_) | | | | | | |_) | | |  __/ | | |  __/ | | \__ \ |\ V /  __/
-     \____\___/|_| |_| |_| .__/|_|  \___|_| |_|\___|_| |_|___/_| \_/ \___|
-                         |_|
  _     _                     ____ _                _       _               _   
 | |   (_)_ __  _   ___  __  / ___| |__   ___  __ _| |_ ___| |__   ___  ___| |_ 
 | |   | | '_ \| | | \ \/ / | |   | '_ \ / _ \/ _` | __/ __| '_ \ / _ \/ _ \ __|
 | |___| | | | | |_| |>  <  | |___| | | |  __/ (_| | |_\__ \ | | |  __/  __/ |_ 
 |_____|_|_| |_|\__,_/_/\_\  \____|_| |_|\___|\__,_|\__|___/_| |_|\___|\___|\__|
+
+
+ ______          ______                             _ 
+|  ____|        |  ____|                 /\/|      | |
+| |__   _ __    | |__   ___ _ __   __ _ _|/\/  ___ | |
+|  __| | '_ \   |  __| / __| '_ \ / _` | '_ \ / _ \| |
+| |____| | | |  | |____\__ \ |_) | (_| | | | | (_) | |
+|______|_| |_|  |______|___/ .__/ \__,_|_| |_|\___/|_|
+                           | |                        
+                           |_|  
+
+
 ```             
 
 
@@ -18,48 +24,49 @@
 ## GNOME ##
 ###########
 
-Ctrl+Alt T — Terminal
-Ctrl+Alt F — Firefox
-Ctrl+Alt H — Home
-Ctrl+Alt G — Gedit
-Alt F12 — Run command
+Ctrl+Alt T — Abrir la Terminal
+Ctrl+Alt F — Abrir Firefox
+Ctrl+Alt H — Inicio
+Ctrl+Alt G — Abrir GEdit
+Alt F12 — Ingresar Comando
  
-Alt F1 — Minimize window
-Alt F2 — Toggle maximize window
-Alt F3 — Toggle full screen
-Ctrl+Alt D — Minimize all windows
+Alt F1 — Minimizar ventana
+Alt F2 — Alternar maximizado de ventana
+Alt F3 — Alternar pantalla completa
+Ctrl+Alt D — Minimizar todas las ventanas
 
-Ctrl+Alt F1-F6 — Terminals (tty-s)
-Ctrl+Alt F7-F12 — Xwindows
-Ctrl+Alt Bksp — Restart X
-Ctrl+Alt Del — Log out
-Ctrl+Alt End — Shutdown
-Super PgUp/PgDn — Switch workspace
-Middle mouse button — Paste selected text
+Ctrl+Alt F1-F6 — Acceder a los puntos de terminal (tty-s)
+Ctrl+Alt F7-F12 — Abrir puntos de XWindows (GUI)
+Ctrl+Alt Bksp — Reiniciar X (GUI)
+Ctrl+Alt Del — Cerrar Sesión
+Ctrl+Alt End — Apagar la máquina
+Super PgUp/PgDn — Intercambiar Escritorios
+Botón medio del ratón — Pegar Selección de Texto
 
 
 NAUTILUS/NEMO:
-Ctrl L — Location, show path
-Ctrl+Shift N — New folder
-Ctrl H — Show hidden files
+Ctrl L — Ubicación, Mostrar ubicación
+Ctrl+Shift N — Carpeta nueva
+Ctrl H — Mostrar archivos ocultos
 
 
 GEDIT:
-Ctrl G — Find next
-Ctrl+Shift G — Find previous
-Ctrl+Shift K — Clear highlights
+Ctrl G — Encontrar siguiente
+Ctrl+Shift G — Encontrar previo
+Ctrl+Shift K — Borrar destacados
 
 
 TERMINAL:
-Ctrl+Shift C — Copy
-Ctrl+Shift V — Paste
-Ctrl+Shift T — New tab   
-Ctrl+Shift W — Close tab     
-Ctrl PgUp/PgDn — Switch tab
+Ctrl+Shift C — Copiar
+Ctrl+Shift V — Pegar
+Ctrl+Shift T — Nueva pestaña
+Ctrl+Shift W — Cerrar pestaña     
+Ctrl PgUp/PgDn — Tabular pestañas
 Ctrl +/- — Zoom
-Ctrl D — Close terminal
-Ctrl S — Scroll lock
+Ctrl D — Cerrar terminal
+Ctrl S — Bloqueo de Scroll
 
+```             
 
 BASH:
 Keys when in emacs mode. You can switch to `vi` mode with `set -o vi` command.
@@ -76,14 +83,17 @@ Ctrl X, Ctrl E — Edit command in editor
 Ctrl P — Show last command (same as up arrow)
 
 
+```             
 
-###############################
-## AWESOME TERMINAL COMMANDS ##
-###############################
 
-========
-PACKAGES:
-========
+
+######################################
+## LISTA DE COMANDOS EN LA TERMINAL ##
+######################################
+
+=============
+INSTALADORES:
+=============
 
 dpkg — Low level package manager for Debian.
     -l — Lists installed packages.
@@ -148,9 +158,9 @@ make
 sudo make install
 ```
 
-=======
-GENERAL:
-=======
+==============
+GENERALIDADES:
+==============
 
 su — Switches user.
     - <user> — Switches to user.
